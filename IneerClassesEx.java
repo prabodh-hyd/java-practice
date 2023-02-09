@@ -1,5 +1,7 @@
+import employee.OuterClass;
+
 //Static inner class example program
-    public class OuterClass {
+    public class IneerClassesEx {
         private static int outerStaticVariable = 10;
         static class StaticInnerClass {
            public void printVariables() {
@@ -13,7 +15,7 @@
         }
      
         public static void main(String[] args) {
-           OuterClass outerClass = new OuterClass();
+            IneerClassesEx outerClass = new IneerClassesEx();
            outerClass.createInnerClass();
         }
      }
