@@ -1,5 +1,8 @@
 
     class Account{
+        //Encapsulation is defined as the wrapping up of data under a single unit.
+        // variables or data of a class is hidden from any other class and can be accessed only
+        // through any member function of its own class in which it is declared.
         //private data members to hide the data
         private long acc_no;
         private String name,email;
