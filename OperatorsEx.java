@@ -1,5 +1,6 @@
 
-    public class OperationsEx {
+    public class OperationsEx4 {
+    //operators are special symbols that represent certain operations on variables or values.
         public static void main(String[] args) {
             int a = 10;
             int b = 20;
