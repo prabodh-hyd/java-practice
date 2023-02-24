@@ -1,6 +1,6 @@
 package in.prabodh;
 
-public class ForLoopExample3 {
+public class ForLoopExample {
     /*for statement consumes the initialization, condition and increment/decrement in one line thereby
      providing a shorter,easy to debug structure of looping. */
     public static void main(String[] args) {

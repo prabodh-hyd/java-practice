@@ -13,7 +13,7 @@ public class AppTest {
     }
     @Test 
     public void sumOfVariables(){
-        int result=VariableEx.method(10,20);
-        assertEquals(30, result);
+        int result=VariableEx.getmethod(120,20);
+        assertEquals(140, result);
     }
 }

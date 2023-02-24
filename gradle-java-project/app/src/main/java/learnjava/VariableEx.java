@@ -8,17 +8,17 @@ public class VariableEx {
 
 
         // Static variable
-        static int staticVar = 10;
+        static int staticVar ;
 
         // Instance variable
-        int instanceVar = 20;
+        int instanceVar;
 
         /*public void method(int localVar) {
             // Local variable
             int sum = staticVar + instanceVar + localVar;
             System.out.println("Sum of variables: " + sum);
         }*/
-        public static int method(int staticVar, int instanceVar) {
+        public static int getmethod(int staticVar, int instanceVar) {
             return staticVar+instanceVar;
             
         }

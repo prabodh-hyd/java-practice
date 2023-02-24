@@ -1,6 +1,6 @@
 package in.prabodh;
 
-public class IfElseEx3 {
+public class IfElseExample {
     // We can use the else statement with the if statement to execute a block of code when the condition is false.
         public static void main(String args[])
         {

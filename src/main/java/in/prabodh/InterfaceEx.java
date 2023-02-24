@@ -1,6 +1,6 @@
 package in.prabodh;
 
-public class Rectangle1 implements InterfaceShape {
+ class Rectangle1 implements InterfaceShape {
     private double length;
     private double width;
 

@@ -1,4 +1,4 @@
-package employee;
+package in.prabodh;
 
 public class OuterClass {
        //Local inner class example program:

@@ -2,7 +2,7 @@ package in.prabodh;
 
 import java.util.Scanner;
 
-public class SwitchExample3 {
+public class SwitchExample {
     //switch statement allows you to select one of several possible code blocks to execute based on the value of a variable.
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

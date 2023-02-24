@@ -1,3 +1,5 @@
+package in.prabodh;
+
 public class VariableEx {
    /*a variable is a named storage location in the computer's memory that can hold a value of a
    particular data type. Variables are used to store data that can be manipulated or used in a program.

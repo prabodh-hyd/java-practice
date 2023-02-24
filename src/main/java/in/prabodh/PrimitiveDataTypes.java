@@ -1,6 +1,6 @@
 package in.prabodh;
 
-public class PrimitiveDataType2 {
+public class PrimitiveDataTypes {
   //Primitive data are only single values and have no special capabilities
     public static void main(String[] args) {
 
