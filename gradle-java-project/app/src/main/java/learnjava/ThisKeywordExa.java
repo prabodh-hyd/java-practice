@@ -18,10 +18,12 @@ public class ThisKeywordExa {
 
             // referring current class(i.e, class RR)
             // static variable(i.e, b)
-            this.b = 600;
+            ThisKeywordExa.b = 600;
 
             System.out.println(b);
         }
+        
+    
 
         public static void main(String[] args)
         {

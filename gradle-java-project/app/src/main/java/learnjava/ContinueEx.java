@@ -1,5 +1,5 @@
 package learnjava;
-import java.util.*;
+
 public class ContinueEx {
     /*Java supports three jump statements: break, continue and return.Terminate a sequence in a switch statement 
      Sometimes it is useful to force an early iteration of a loop. That is, you might want to continue running

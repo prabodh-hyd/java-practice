@@ -18,7 +18,7 @@ package learnjava;
         }
     }
       
-       class Main1{
+       class MainClass{
         public static void main(String[] args) {
             Nestedclass outer = new Nestedclass();
           outer.createInnerClassObject();
