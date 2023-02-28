@@ -2,65 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07b6558d-0fce-4cf7-94cd-fdc67fb0257a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/java-practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/.idea/java-practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/AbstractNonAccessMod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/Abstraction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/Arrayex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/AutomaticTypeCon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/ClassesEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/ControlStatement3Ex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/DoWhileLoopEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/Encapsualtion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/ExampleMinNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/ExplicitTypeCon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/ForLoopExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/Geek.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/IfElseExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/IfElseIfLadderExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/IneerClassesEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/InterfaceEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/InterfaceShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/MethodOverLoading.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/NestedIfExample3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/Nestedclass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/NonAccessModEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/NonAccessModFinal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/OperatorsEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/OuterClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/PackageEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/PrimitiveDataTypeEx2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/PrimitiveDataTypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/PrivateAccessEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/ProtectedEXDog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/PublicAccessEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/SuperKeyword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/SwitchExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/ThisKeywordEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/UserdefinedExeceptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/VariableEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/WhileLoopEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/Writedatatofile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/employee/ExceptionHandlingExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/employee/GFG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/employee/Stackex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/prabodh/math/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

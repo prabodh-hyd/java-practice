@@ -5,9 +5,8 @@ package learnjava;
         //The most common use of super keyword is that it eliminates the
         // confusion between the superclasses and subclasses that have methods with same name.
         int a = 10;   // instance variable
-
-        // static variable
-        static int b = 20;
+        
+         int b = 20;
 
  }
 
@@ -18,8 +17,7 @@ package learnjava;
             // instance variable(i.e, a)
             System.out.println(super.a);
 
-            // referring parent class(i.e, class Parent)
-            // static variable(i.e, b)
+            
             System.out.println(super.b);
         }
 
