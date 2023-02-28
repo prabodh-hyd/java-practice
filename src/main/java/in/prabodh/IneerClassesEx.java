@@ -1,4 +1,4 @@
-import in.prabodh;
+package in.prabodh;
 
 //Static inner class example program
     public class IneerClassesEx {
