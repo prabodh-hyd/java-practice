@@ -1,7 +1,5 @@
 package in.prabodh;
 
-
-
 //Static inner class example program
     public class IneerClassesEx {
         private static int outerStaticVariable = 10;
