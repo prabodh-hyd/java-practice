@@ -1,7 +1,7 @@
-import in.prabodh;
+package in.prabodh;
 
 //Static inner class example program
-    public class IneerClassesEx {
+    public class InnerClassesEx {
         private static int outerStaticVariable = 10;
         static class StaticInnerClass {
            public void printVariables() {
@@ -15,7 +15,7 @@ import in.prabodh;
         }
      
         public static void main(String[] args) {
-            IneerClassesEx outerClass = new IneerClassesEx();
+            InnerClassesEx outerClass = new InnerClassesEx();
            outerClass.createInnerClass();
         }
      }

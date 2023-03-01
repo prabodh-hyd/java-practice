@@ -1,6 +1,6 @@
 package in.prabodh;
 
-    public class OperationsEx4 {
+    public class OperatorsEx {
     //operators are special symbols that represent certain operations on variables or values.
         public static void main(String[] args) {
             int a = 10;

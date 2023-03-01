@@ -12,7 +12,7 @@ class InvalidAgeException  extends Exception
 }
 
 // class that uses custom exception InvalidAgeException
-    public class UserdeinedExeceptions
+    public class UserdeinedExeception
      {
 
     // method to check the age

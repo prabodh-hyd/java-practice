@@ -1,6 +1,6 @@
 package in.prabodh;
 
-public class ThisKeywordEx {
+public class ThisKeywordExa {
         // this is used to access methods of the current class.it is a resrved word in java.
     //we cannt use its as an identifier.
         int a = 10;   // instance variable
@@ -26,7 +26,7 @@ public class ThisKeywordEx {
         public static void main(String[] args)
         {
 
-            new ThisKeywordEx().GFG();
+            new ThisKeywordExa().GFG();
         }
     }
 

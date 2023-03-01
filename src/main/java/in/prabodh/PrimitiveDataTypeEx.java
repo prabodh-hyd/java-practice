@@ -1,6 +1,6 @@
 package in.prabodh;
 
-public class PrimitiveDataTypeEx2 {
+public class PrimitiveDataTypeEx {
     /*Primitive data are only single values and have no special capabilities
     boolean,byte,char,short,int,long,double,float
     There are five types of non-primitive data types in Java. They are as follows:

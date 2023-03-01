@@ -1,6 +1,8 @@
+package in.prabodh;
+
 import java.util.Scanner;
 
-public class WhileLoopEx3 {
+public class WhileLoopEx {
     //Entry control loop
     //Once the condition is evaluated to true, the statements in the loop body are executed.
     public static void main(String[] args) {

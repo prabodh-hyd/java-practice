@@ -2,7 +2,7 @@ package in.prabodh;
 import java.util.Scanner;
         /*A nested if is an if statement that is the target of another if or else.
         Nested if statements mean an if statement inside an if statement.*/
-    public class NestedIfExample3 {
+    public class NestedIfExample {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             System.out.print("Enter your age: ");
