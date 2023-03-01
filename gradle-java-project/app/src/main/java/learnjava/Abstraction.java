@@ -75,4 +75,12 @@ public class Abstraction {
         System.out.println(s1.toString());
         System.out.println(s2.toString());
     }
+
+    public static double Circle(String string, double d) {
+        return 0;
+    }
+
+    public static double Rectangle(String string, int i, int j) {
+        return 0;
+    }
 }
