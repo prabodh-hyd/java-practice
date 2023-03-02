@@ -14,7 +14,7 @@ public class OuterClass {
         }
       }
       
-       class Main {
+       class Main3 {
         public static void main(String[] args) {
           OuterClass outer = new OuterClass();
           outer.createLocalInnerClassObject();

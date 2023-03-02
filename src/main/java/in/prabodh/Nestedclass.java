@@ -15,7 +15,7 @@ package in.prabodh;
         }
     }
       
-       class Main {
+       class Main1 {
         public static void main(String[] args) {
             Nestedclass outer = new Nestedclass();
           outer.createInnerClassObject();
