@@ -4,38 +4,35 @@ import java.util.Scanner;
 
 public class SwitchExample {
     //switch statement allows you to select one of several possible code blocks to execute based on the value of a variable.
-    public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
-            System.out.print("Enter a number between 1 and 7: ");
-            int day = scanner.nextInt();
-
-            switch (day) {
-                case 1:
-                    System.out.println("Sunday");
-                    break;
-                case 2:
-                    System.out.println("Monday");
-                    break;
-                case 3:
-                    System.out.println("Tuesday");
-                    break;
-                case 4:
-                    System.out.println("Wednesday");
-                    break;
-                case 5:
-                    System.out.println("Thursday");
-                    break;
-                case 6:
-                    System.out.println("Friday");
-                    break;
-                case 7:
-                    System.out.println("Saturday");
-                    break;
-                default:
-                    System.out.println("Invalid input");
-                    break;
-            }
+    
+    public String getDayName(int dayOfWeek) {
+        switch (dayOfWeek) {
+            case 1:
+                return "Monday";
+            case 2:
+                return "Tuesday";
+            case 3:
+                return "Wednesday";
+            case 4:
+                return "Thursday";
+            case 5:
+                return "Friday";
+            case 6:
+                return "Saturday";
+            case 7:
+                return "Sunday";
+            default:
+                throw new IllegalArgumentException("Invalid day of week: " + dayOfWeek);
         }
     }
-}
+    
+           
+           
+        }
+    
+    
+        
+        
+    
+
 

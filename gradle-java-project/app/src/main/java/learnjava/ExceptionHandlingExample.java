@@ -6,7 +6,7 @@ package learnjava;
       process of identifying, catching, and handling exceptions in a program. When an exception occurs,
        Java creates an object of the corresponding exception class and throws it.
        */
-        public static void main(String[] args) {
+        public void testException() {
           try {
             int a = 10;
             int b = 0;

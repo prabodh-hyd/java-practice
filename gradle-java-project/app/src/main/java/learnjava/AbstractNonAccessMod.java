@@ -5,24 +5,22 @@ package learnjava;
 An abstract method has no implementation and must be implemented by any subclass that inherits from the parent class.
  */
     // abstract class
-    abstract class Abstract_gfg{
-        abstract void myMethod();
+ abstract class Animal2 {
+        public String makeSound() {
+          String  str1="The animal makes a sound";
+        return str1;
+        }
     }
-
     //extending abstract class
-    class MyClass extends Abstract_gfg{
-
-        // overriding abstract method otherwise
-        // code will produce error
-        void myMethod(){
-            System.out.println("GeeksforGeeks");
+    public class AbstractNonAccessMod extends Animal2 {
+        @Override
+        public String makeSound() {
+            String str="Bow";
+            return str;
+         
         }
     }
-    class AbstractNonAccessMod {
-        public static void main(String[] args) {
-            MyClass obj=new MyClass();
-            obj.myMethod();
-        }
-    }
+    
+    
 
 

@@ -5,11 +5,11 @@ public class ExampleMinNumber {
      A method can be thought of as a function that takes input parameters, performs some operation on them,
       and returns a result.
      */
-    public static void main(String[] args) {
+    public int testMin() {
         int a = 11;
         int b = 6;
         int c = minFunction(a, b);
-        System.out.println("Minimum Value = " + c);
+        return c;
     }
 
     /** returns the minimum of two numbers */

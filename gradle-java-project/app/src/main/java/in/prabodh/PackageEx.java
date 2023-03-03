@@ -11,5 +11,9 @@ public class PackageEx {
         int result = Calculator.add(5, 10);
         System.out.println("5 + 10 = " + result);
     }
+
+    public static int add(int i, int j) {
+        return i+j;
+    }
 }
 

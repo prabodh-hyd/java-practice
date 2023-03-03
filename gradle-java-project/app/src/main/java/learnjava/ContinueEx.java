@@ -5,17 +5,23 @@ public class ContinueEx {
      Sometimes it is useful to force an early iteration of a loop. That is, you might want to continue running
       the loop but stop processing the remainder of the code in its body for this particular iteration.*/
 
-	public static void main(String args[])
+	public int continueM()
 	{
-		for (int i = 0; i < 10; i++) {
-			// If the number is even
-			// skip and continue
-			if (i % 2 == 0)
-				continue;
-
-			// If number is odd, print it
-			System.out.print(i + " ");
-		}
+		int[] numbers = {1, 2, 3, 4, 5};
+		int sum = 0;
+		for (int i = 0; i < numbers.length; i++) {
+			
+            if (numbers[i] % 2 == 0) {
+				
+                continue; // Skip even numbers
+            }
+            sum += numbers[i];
+        }
+		return sum;
+        
+		
+		
+		
 	}
 }
 

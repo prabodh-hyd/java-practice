@@ -6,24 +6,22 @@ package learnjava;
         // confusion between the superclasses and subclasses that have methods with same name.
         int a = 10;   // instance variable
         
-         int b = 20;
+        
 
  }
 
     class SuperKeywordEx extends Base {
-        void rr()
+        int rr()
         {
             // referring parent class(i.e, class Parent)
             // instance variable(i.e, a)
             System.out.println(super.a);
 
             
-            System.out.println(super.b);
+            
+            return a;
         }
 
-        public static void main(String[] args)
-        {
-            new SuperKeywordEx().rr();
-        }
+        
     }
 

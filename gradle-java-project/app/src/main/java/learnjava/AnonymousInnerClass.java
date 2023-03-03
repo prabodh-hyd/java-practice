@@ -10,36 +10,24 @@ interface Age {
 
 	// Defining variables and methods
 	int x = 21;
-	void getAge();
+	int getAge();
 }
 
 // Class 1
 // Helper class implementing methods of Age Interface
-class MyClass1 implements Age {
+class AnonymousInnerClass implements Age {
 
 	// Overriding getAge() method
-	@Override public void getAge()
+	@Override
+	 public int getAge()
 	{
 		// Print statement
-		System.out.print("Age is " + x);
+		
+		return x;
 	}
 }
 
-// Class 2
-// Main class
-// AnonymousDemo
-class GFG1 {
-	// Main driver method
-	public static void main(String[] args)
-	{
-		// Class 1 is implementation class of Age interface
-		MyClass1 obj = new MyClass1();
 
-		// calling getage() method implemented at Class1
-		// inside main() method
-		obj.getAge();
-	}
-}
 
     
 

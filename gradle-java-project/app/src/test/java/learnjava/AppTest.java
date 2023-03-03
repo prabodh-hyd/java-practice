@@ -4,7 +4,15 @@
 package learnjava;
 
 import org.junit.Test;
+
+import in.prabodh.PackageEx;
+
 import static org.junit.Assert.*;
+
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+
+import org.junit.AfterClass;
 
 public class AppTest {
     @Test public void appHasAGreeting() {
@@ -16,4 +24,45 @@ public class AppTest {
         int result=VariableEx.getmethod(120,20);
         assertEquals(140, result);
     }
+    @Test
+    
+    public void additon(){
+        int sum1=PackageEx.add(10,20);
+        assertEquals(30,sum1);
+    }
+    @Test
+    public void testEncapsulation(){
+        Encapsualtion en=new Encapsualtion();
+        en.setAcc_no(123456789);
+        en.setName("aaa");
+        en.setEmail("alice@example.com");
+        en.setAmount(1000);
+        assertEquals(123456789,en.getAcc_no());
+        assertEquals("aaa", en.getName());
+        assertEquals("alice@example.com", en.getEmail());
+        assertEquals(1000, en.getAmount());
+        
+    }
+    @Test
+    public void testMethod(){
+        ExampleMinNumber em=new ExampleMinNumber();
+        int res=em.testMin();
+        assertEquals(6, res);
+
+    }
+    @Test
+    public void testExceptionHandling(){
+        ExceptionHandlingExample ex= new ExceptionHandlingExample();
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+        String expected="Exception caught: Division by zero\n";
+        assertEquals(expected, ex.testException());
+
+    }
+        
+
+
+
+
+    
 }
