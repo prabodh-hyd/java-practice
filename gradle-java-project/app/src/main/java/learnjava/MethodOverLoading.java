@@ -20,14 +20,6 @@ public class MethodOverLoading {
             return (x + y);
         }
 
-        // Driver code
-        public static void main(String args[])
-        {
-            MethodOverLoading s = new MethodOverLoading();
-            System.out.println(s.sum(10, 20));
-            System.out.println(s.sum(10, 20, 30));
-            System.out.println(s.sum(10.5, 20.5));
-        }
     }
 
 

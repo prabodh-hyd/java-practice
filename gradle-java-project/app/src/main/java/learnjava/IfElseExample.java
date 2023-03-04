@@ -2,14 +2,15 @@ package learnjava;
 
 public class IfElseExample {
     // We can use the else statement with the if statement to execute a block of code when the condition is false.
-        public static void main(String args[])
+        public boolean methodIfElse()
         {
             int i = 10;
 
             if (i < 15)
-                System.out.println("i is smaller than 15");
+               return true;
             else
-                System.out.println("i is greater than 15");
+                
+            return false;
         }
     }
 

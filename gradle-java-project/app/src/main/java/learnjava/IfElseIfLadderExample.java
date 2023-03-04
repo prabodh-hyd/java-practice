@@ -1,12 +1,8 @@
 package learnjava;
 
-import java.util.Scanner;
 // a user can decide among multiple options.The if statements are executed from the top down.
 public class IfElseIfLadderExample {
-    public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
-            System.out.print("Enter your grade: ");
-            int grade = scanner.nextInt();
+    public void ladderMethod(int grade){
 
             if (grade >= 90) {
                 System.out.println("Your grade is A.");
@@ -21,5 +17,5 @@ public class IfElseIfLadderExample {
             }
         }
     }
-}
+
 
