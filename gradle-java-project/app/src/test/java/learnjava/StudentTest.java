@@ -9,7 +9,7 @@ public class StudentTest {
     public void testParameterizedConstructor(){
         int i=1;
         String name="shiva";
-        Student s=new Student(i,name);
+        Student1 s=new Student1(i,name);
         assertEquals("shiva", s.getname());
         assertEquals(1, s.getId());
         

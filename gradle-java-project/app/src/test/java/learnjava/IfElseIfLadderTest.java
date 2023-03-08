@@ -12,11 +12,9 @@ public class IfElseIfLadderTest {
     @Test
     public void testLadder(){
         IfElseIfLadderExample es=new IfElseIfLadderExample();
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        System.setOut(new PrintStream(baos));
-        es.ladderMethod(80);
-        String output = baos.toString();
-        String expected="Your grade is B.\n";
+      
+        String output = es.ladderMethod(80);
+        String expected="Your grade is B.";
         assertEquals(expected, output);
         
         

@@ -25,19 +25,5 @@ public class PolymorphismEx1 {
 	}
 }
 
-// Class 2
-// Main class
-     class StaticPolymorphism {
-
-	// Main driver method
-	     public static void main(String[] args)
-	        {
-
-		// Calling method by passing
-		// input as in arguments
-		System.out.println(PolymorphismEx1.Multiply(2, 4));
-		System.out.println(PolymorphismEx1.Multiply(5.5, 6.3));
-	}
-}
 
 

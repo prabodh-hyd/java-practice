@@ -1,22 +1,35 @@
 package learnjava;
 
-    class Animal1 {
+    
         /*"protectedMethod()" are accessible from within the same class, its subclasses, 
         and classes in the same package.
          */
-        protected void display() {
-            System.out.println("I am an animal");
+         class Animal {
+            protected String name;
+            
+            public Animal(String name) {
+                this.name = name;
+            }
+            
+            protected String sleep() {
+                
+                return name + " is sleeping.";
+            }
         }
-    }
-
-    class ProtectedExDog extends Animal1 {
-        public static void main(String[] args) {
-
-            // create an object of Dog class
-            ProtectedExDog dog = new ProtectedExDog();
-            // access protected method
-            dog.display();
+        
+        public class ProtectedEXDog extends Animal {
+            public ProtectedEXDog(String name) {
+                super(name);
+            }
+            
+            public String bark() {
+                
+                return name + " is barking.";
+            }
+            
+            public String goSleep() {
+                return sleep();
+            }
         }
-    }
-
-
+        
+        

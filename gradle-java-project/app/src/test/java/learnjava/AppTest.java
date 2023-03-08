@@ -9,10 +9,6 @@ import in.prabodh.PackageEx;
 
 import static org.junit.Assert.*;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
-
-import org.junit.AfterClass;
 
 public class AppTest {
     @Test public void appHasAGreeting() {
@@ -50,19 +46,91 @@ public class AppTest {
         assertEquals(6, res);
 
     }
-    @Test
+    @Test(expected = ArithmeticException.class)
     public void testExceptionHandling(){
         ExceptionHandlingExample ex= new ExceptionHandlingExample();
-        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-        System.setOut(new PrintStream(outContent));
-        String expected="Exception caught: Division by zero\n";
-        assertEquals(expected, ex.testException());
+         assertEquals("exArithmeticException.class", ex.divideByZero());
+    }
+         @Test(expected = NullPointerException.class)
+         public void testNull(){
+            ExceptionHandlingExample ex= new ExceptionHandlingExample();
+            assertEquals("NullPointerException.class", ex.nullPointer());
 
+
+
+         }
+    
+
+    @Test
+    public void testPublic(){
+        PublicAccessEx pa=new PublicAccessEx();
+        String res=pa.display();
+        assertEquals(" I have 4 legs.", res);
     }
         
+@Test
+public void testStaticPolymorphism(){
+    PolymorphismEx1 pm1=new PolymorphismEx1();
+    int res=PolymorphismEx1.Multiply(2, 6);
+    assertEquals(12, res);
+    int res1=PolymorphismEx1.Multiply(4, 5);
+    assertEquals(20, res1);
+}
+@Test 
+public void testRunTimePolymorphism(){
+    PolymorphismEx2 pm;
+    pm=new Subclass1(); 
+    String res=pm.Print();
+    assertEquals("subclass1", res);
+    pm=new Subclass2();
+    String res1=pm.Print();
+    assertEquals("subclass2", res1);
+}
+@Test
+public void testPrimitiveDatatypes(){
+    PrimitiveDataTypes pr=new PrimitiveDataTypes();
+    boolean res=pr.logicalAnd();
+    assertEquals(false, res);
+    boolean res1=pr.logicalOr();
+    assertEquals(true,res1);
+    boolean res2=pr.logicalNot();
+    assertEquals(false,res2);
+
+}
+@Test
+public void datatypes(){
+    PrimitiveDataTypeEx prt=new PrimitiveDataTypeEx();
+    int res=prt.sum();
+    assertEquals(31000, res);
+    long res1=prt.product();
+    long expected=-1000;
+    assertEquals(expected, res1);
+    double res2=prt.quotient();
+    assertEquals(1.1557273848878886, res2,0.01);
+}
+@Test
+public void testOuterInnerClass(){
+    OuterClass oc=new OuterClass();
+    String res=oc.createLocalInnerClassObject();
+    assertEquals("This is a message from the local inner class.", res);
+    
+}
+
+@Test
+public void testUserDefinedExceptions(){
+    try{
+        UserdefinedExeceptions.validate(15);
+        fail("age is not valid to vote");
+    }
+ catch (InvalidAgeException ex) {
+    // If the exception is thrown, the test should pass
+    assertEquals("age is not valid to vote", ex.getMessage());
+  }
+}
+}
 
 
 
 
     
-}
+

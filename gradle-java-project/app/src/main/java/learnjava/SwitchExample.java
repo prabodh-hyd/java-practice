@@ -1,6 +1,6 @@
 package learnjava;
 
-import java.util.Scanner;
+
 
 public class SwitchExample {
     //switch statement allows you to select one of several possible code blocks to execute based on the value of a variable.

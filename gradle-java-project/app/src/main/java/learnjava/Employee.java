@@ -101,6 +101,12 @@ class Employee implements Comparable <Employee>{
               }
               return 0;
              }
+
+
+
+    public int size() {
+        return 0;
+    }
 }
 
  

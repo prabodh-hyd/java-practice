@@ -4,76 +4,73 @@ package learnjava;
     
 /*String is a sequence of characters. In java, objects of String are immutable which means a constant and
  cannot be changed once created. */
-
-
-	public static void main (String[] args)
-	{
-		String s= "GeeksforGeeks";
+		
 		// or String s= new String ("GeeksforGeeks");
 
 		// Returns the number of characters in the String.
-		System.out.println("String length = " + s.length());
+		public int lengthOfString(){
+			String s= "GeeksforGeeks";
+			return s.length();
+		}
 
 		// Returns the character at ith index.
-		System.out.println("Character at 3rd position = "
-						+ s.charAt(3));
+		public char charOfString(){
+			String s= "GeeksforGeeks";
+			return s.charAt(3);
+		}
 
 		// Return the substring from the ith index character
 		// to end of string
-		System.out.println("Substring " + s.substring(3));
-
-		// Returns the substring from i to j-1 index.
-		System.out.println("Substring = " + s.substring(2,5));
-
+		public String subString(){
+			String s= "GeeksforGeeks";
+			return s.substring(3,5);
+		}
 		// Concatenates string2 to the end of string1.
+		public String concatenate(){
 		String s1 = "Geeks";
 		String s2 = "forGeeks";
-		System.out.println("Concatenated string = " +
-							s1.concat(s2));
-
+		return s1.concat(s2);
+		}
+		
 		// Returns the index within the string
 		// of the first occurrence of the specified string.
-		String s4 = "Learn Share Learn";
-		System.out.println("Index of Share " +
-						s4.indexOf("Share"));
-
-		// Returns the index within the string of the
-		// first occurrence of the specified string,
-		// starting at the specified index.
-		System.out.println("Index of a = " +
-						s4.indexOf('a',3));
+		public int indexOfString(){
+			String s4 = "Learn Share Learn";
+			return s4.indexOf("Share");
+		}
 
 		// Checking equality of Strings
-		Boolean out = "Geeks".equals("geeks");
-		System.out.println("Checking Equality " + out);
-		out = "Geeks".equals("Geeks");
-		System.out.println("Checking Equality " + out);
+		public boolean equla(){
+			Boolean out = "Geeks".equals("geeks");
+		return out;
+		}
+		public int compare(){
+			String s1="apple";
+			String s2="banana";
+			int out1 = s1.compareTo(s2);
+			return out1;
 
-		out = "Geeks".equalsIgnoreCase("gEeks ");
-		System.out.println("Checking Equality " + out);
+		}
+		// Converting cases
+		public String lowercase()
+		{
+			String word1 = "GeeKyMe";
+			return word1.toLowerCase();
+		}
 		
-		//If ASCII difference is zero then the two strings are similar
-		int out1 = s1.compareTo(s2);
-		System.out.println("the difference between ASCII value is="+out1);
-		// Converting cases
-		String word1 = "GeeKyMe";
-		System.out.println("Changing to lower Case " +
-							word1.toLowerCase());
-
-		// Converting cases
-		String word2 = "GeekyME";
-		System.out.println("Changing to UPPER Case " +
-							word2.toUpperCase());
-
-		// Trimming the word
-		String word4 = " Learn Share Learn ";
-		System.out.println("Trim the word " + word4.trim());
-
+		public String uppercase(){
+			String word2 = "GeekyME";
+			return word2.toUpperCase();
+		}
+	   public String trim(){
+		String word4 = "  Hello, world!  ";
+         return word4.trim();
+	   }
 		// Replacing characters
+     public String replace(){
 		String str1 = "feeksforfeeks";
-		System.out.println("Original String " + str1);
-		String str2 = "feeksforfeeks".replace('f' ,'g') ;
-		System.out.println("Replaced f with g -> " + str2);
+		String str2 = str1.replace('f' ,'g') ;
+		return str2;
 	}
 }
 
